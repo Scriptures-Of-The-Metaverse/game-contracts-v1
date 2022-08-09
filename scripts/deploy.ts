@@ -1,6 +1,6 @@
 import { ethers } from "hardhat";
 
-async function main() {
+async function main() {4
 }
 
 // We recommend this pattern to be able to use async/await everywhere
