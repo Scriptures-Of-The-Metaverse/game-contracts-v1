@@ -1,6 +1,8 @@
 import { ethers } from "hardhat";
 
-async function main() {4
+async function main() {
+  const registrar = await ethers.getContractFactory('RegistrarModule');
+  await registrar.deploy()
 }
 
 // We recommend this pattern to be able to use async/await everywhere
